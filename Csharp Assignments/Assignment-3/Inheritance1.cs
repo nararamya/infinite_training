@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment3
 {
-    class Accounts
+    class Account
     {
         public int Account_No;
         public string Customer_Name;
@@ -15,22 +15,22 @@ namespace Assignment3
         public int amount;
         public int balance;
 
-        public Accounts(int account_no, string customer_name, string account_type)
+        public Account(int account_no, string customer_name, string account_type)
         {
             Account_No = account_no;
             Customer_Name = customer_name;
             Account_Type = account_type;
         }
-        public void Set_Data(string trans_type, int amo, int bal)
+        public void Set_Data(string transtype, int amoun, int balan)
         {
-            Transaction_Type = trans_type;
-            amount = amo;
-            balance = bal;
+            Transaction_Type = transtype;
+            amount = amoun;
+            balance = balan;
         }
     }
-    internal class Balance : Accounts
+    internal class Balanceamount : Account
     {
-        public Balance(int account_no, string customer_name, string account_type) : base(account_no, customer_name, account_type)
+        public Balanceamount(int account_no, string customer_name, string account_type) : base(account_no, customer_name, account_type)
         {
 
         }
@@ -53,7 +53,7 @@ namespace Assignment3
                 Debit(amount);
             }
         }
-        public void Show_Data()
+        public void Showdata()
         {
             Console.WriteLine($"Account Number : {Account_No}");
             Console.WriteLine($"Customer Name : {Customer_Name}");
@@ -75,21 +75,21 @@ namespace Assignment3
             string acc_type = Console.ReadLine();
 
 
-            Balance ob = new Balance(acc_no, customer_name, acc_type);
+            Balanceamount res = new Balanceamount(acc_no, customer_name, acc_type);
 
 
             Console.WriteLine("Enter the transaction type : ");
-            string trans_type = Console.ReadLine();
+            string transtype = Console.ReadLine();
             Console.WriteLine("Enter the amount : ");
-            int amo = Convert.ToInt32(Console.ReadLine());
+            int amoun= Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the balance : ");
-            int bal = Convert.ToInt32(Console.ReadLine());
+            int balan = Convert.ToInt32(Console.ReadLine());
 
-            ob.Set_Data(trans_type, amo, bal);
-            ob.Update_Balance(trans_type);
+            res.Set_Data(transtype, amoun, balan);
+            res.Update_Balance(transtype);
 
-            Console.WriteLine("-------------------Details of the customer-----------------");
-            ob.Show_Data();
+            Console.WriteLine("Customer details:");
+            res.Showdata();
 
             Console.Read();
         }

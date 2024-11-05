@@ -5,3 +5,10 @@ C:\Users\ramyan\source\repos\Assignment3\obj\Debug\Assignment3.csproj.AssemblyRe
 C:\Users\ramyan\source\repos\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
 C:\Users\ramyan\source\repos\Assignment3\obj\Debug\Assignment3.exe
 C:\Users\ramyan\source\repos\Assignment3\obj\Debug\Assignment3.pdb
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-3\bin\Debug\Assignment3.exe.config
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-3\bin\Debug\Assignment3.exe
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-3\bin\Debug\Assignment3.pdb
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-3\obj\Debug\Assignment3.csproj.AssemblyReference.cache
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-3\obj\Debug\Assignment3.exe
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-3\obj\Debug\Assignment3.pdb
