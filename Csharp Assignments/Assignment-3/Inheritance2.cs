@@ -52,22 +52,26 @@ namespace Assignment3
                 sum += marks[i];
             }
 
-            double average = (double)sum / marks.Length;
+            float average = (float)sum / marks.Length;
+            bool result= true;
             for (int j = 1; j < marks.Length; j++)
             {
-
+                
                 if (marks[j] < 35)
                 {
-                    Console.WriteLine("Failed in subject {0}", j);
+                    Console.WriteLine("Failed in subject {0}", j+1);
+                    result = false;
                 }
             }
-            if (average > 50)
+            if (average < 50 || result == false)
             {
-                Console.WriteLine("Student Passed and  Average : {0} ", average);
+                Console.WriteLine("Student failed and  Average : {0} ", average);
+                
             }
-            else
+            else if(average>50 && result==true)
             {
-                Console.WriteLine("Student Failed and Average : {0} ", average);
+                Console.WriteLine("Student passed and Average : {0} ", average);
+                
             }
         }
 

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assignment3.Inheritance1</StartupObject>
+    <StartupObject>Assignment3.Average.Inheritance</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
