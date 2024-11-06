@@ -1,0 +1,7 @@
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assessments\Assessment1\bin\Debug\Assessment1.exe.config
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assessments\Assessment1\bin\Debug\Assessment1.exe
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assessments\Assessment1\bin\Debug\Assessment1.pdb
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assessments\Assessment1\obj\Debug\Assessment1.csproj.AssemblyReference.cache
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assessments\Assessment1\obj\Debug\Assessment1.csproj.CoreCompileInputs.cache
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assessments\Assessment1\obj\Debug\Assessment1.exe
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assessments\Assessment1\obj\Debug\Assessment1.pdb
