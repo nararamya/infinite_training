@@ -1,0 +1,6 @@
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-6\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-6\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-6\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-6\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-6\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\ramyan\Desktop\dotnet training\Csharp Assignments\Assignment-6\ClassLibrary\obj\Debug\ClassLibrary.pdb
