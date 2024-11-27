@@ -1,0 +1,7 @@
+C:\Users\ramyan\Desktop\dotnet training\SQL Assessments\Assessment-1\assessement\bin\Debug\assessement.exe.config
+C:\Users\ramyan\Desktop\dotnet training\SQL Assessments\Assessment-1\assessement\bin\Debug\assessement.exe
+C:\Users\ramyan\Desktop\dotnet training\SQL Assessments\Assessment-1\assessement\bin\Debug\assessement.pdb
+C:\Users\ramyan\Desktop\dotnet training\SQL Assessments\Assessment-1\assessement\obj\Debug\assessement.csproj.AssemblyReference.cache
+C:\Users\ramyan\Desktop\dotnet training\SQL Assessments\Assessment-1\assessement\obj\Debug\assessement.csproj.CoreCompileInputs.cache
+C:\Users\ramyan\Desktop\dotnet training\SQL Assessments\Assessment-1\assessement\obj\Debug\assessement.exe
+C:\Users\ramyan\Desktop\dotnet training\SQL Assessments\Assessment-1\assessement\obj\Debug\assessement.pdb
