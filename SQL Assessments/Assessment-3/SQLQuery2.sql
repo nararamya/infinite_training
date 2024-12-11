@@ -10,7 +10,7 @@ Started_date Datetime,
 End_date Datetime,
 FEE float,
 );
-drop table course_details
+
 
 insert into course_details values('DN003','Dot Net','2018-02-01','2018-02-28',15000),('DV004','Data Visualization','2018-03-01','2018-04-15',15000),
 ('JA002','AdvancedJava','2018-01-02','2018-01-20',10000),('JC001','CoreJava','2018-01-02','2018-01-12',3000)
@@ -21,7 +21,7 @@ returns int
 as
 begin
 declare @duration int 
-select @duration=DATEDIFF(DAY,Started_date,End_date) from course_details
+select @duration=DATEDIFF(DAY,@Startdate,@enddate) from course_details
 return @duration
 end
  
