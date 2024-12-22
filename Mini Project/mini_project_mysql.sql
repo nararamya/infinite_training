@@ -12,7 +12,7 @@ CREATE TABLE Trains (
 	Price INT,
     IsActive BIT default 1
 );
-drop table Trains
+
 
 create table BookTickets(
    Booking_ID INT primary key,
@@ -26,7 +26,7 @@ create table BookTickets(
    foreign key (TrainNumber) references Trains(TrainNumber)
 );
 
- drop table BookTickets
+ 
 
  create table Users(
  Booking_ID INT primary key,
@@ -39,7 +39,7 @@ create table BookTickets(
  TotalPrice float,
  foreign key (Booking_ID) references BookTickets(Booking_ID)
  );
- drop table Customers
+ 
  ---------------------------------------------------------------------------------------------
 
  CREATE OR ALTER PROCEDURE AddTrain
@@ -177,7 +177,7 @@ BEGIN
 	BEGIN
 	   set @Message='Date must be greater than or equal to current date';
 	END
-	END
+	END;
   
 -------------------------------------------------------------------------------------
 
@@ -219,7 +219,7 @@ BEGIN
 	BEGIN
 	set @Message='Entered Wrong Train Number';
 	END
-	END
+	END;
 ----------------------------------------------------------------------------------------------
 
 
@@ -242,7 +242,7 @@ ELSE
 BEGIN
      set @Message='Booking ID entered invalid!';
 	 END
- END
+ END;
 
 --------------------------------------------------------------------------------------------------
 
