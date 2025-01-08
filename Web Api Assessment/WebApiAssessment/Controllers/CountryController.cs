@@ -24,7 +24,7 @@ namespace WebApiAssessment.Controllers
         };
         [HttpGet]
         [Route("All")]
-        public HttpResponseMessage GetAllPGetAllCountries()
+        public HttpResponseMessage GetAllCountries()
         {
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, Countries);
             return response;
